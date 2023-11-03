@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    font-family: 'Inter';
+    padding: 0px;
+}
+
+#menusuperior{
+    background-color: black;
+    color: white;
+    background-image: url(img/unplash.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#titulomenusuperior {
+    font-size: 40px;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+
+#textomenusuperior {
+    font-size: 20px;
+    margin-left: 125px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+#menuinformacional {
+    background-color: #eaece5;
+    color: #122235; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 170px;
+}
+
+.icone {
+    padding: 20px;
+    align-items: center;
+}
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video {
+    margin: 50px 10px 50px 0;
+    text-align: right;
+}
+
+#titulovideo {
+    margin: 50px 0 50px 50px;
+    color:#247BA0;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+#textovideo {
+    margin: 50px 0 50px 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+#carrossel {
+    background-color:#247BA0;
+    padding: 50px;
+}
+
+#titulocarrossel {
+    color: #EAECE5;
+    display: grid;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#div-cards {
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+#bruna {
+    display: none;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+.seta {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#tituloformulario {
+    margin: 25px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #383838;
+}
+
+input {
+    background-color: #EAECE5;
+    padding-left: 10px;
+    width: 343px;
+    height: 43px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 15px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    background-color: #247BA0;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2b7696;
+    transform: translateY(-4px);
+    transition-duration: 0.5s;
+}
